@@ -1,0 +1,45 @@
+body { background-image:linear-gradient(360deg,black,#408721);
+       background-repeat:no-repeat;
+       background-size:cover;
+	   background-attachment: fixed;}      
+
+table.home {width:100%;
+			border-collapse:collapse;} 
+			
+td.home {background-color: blue; 
+		border:3px white solid;}
+		
+td.home:hover {background-color: red;}
+
+a.home {color:white;
+		text-decoration:none;}
+
+#NomRestaurant {color:white;
+				text-shadow:-.05em -.05em .05em #424242,.03em .03em .05em #E6E6E6;
+				font-size:xx-large;
+				font-family: Verdana;
+				text-align:center;}
+
+#d1 {width:600px;
+	display: block;
+	margin-left:auto;
+    margin-right:auto;}
+
+#text {text-align:center;
+		color: white;
+		border: 3px black solid;
+		border-radius:2em;
+		width:600px;
+		display: block;
+		margin-left:auto;
+		margin-right:auto;
+		box-shadow: 6px 6px 5px gray;}
+	
+#face {text-align:right;
+		color: white;
+		vertical-align: middle;}
+		
+#nom {text-align:right;
+		color: white;
+		font-size:13px;
+}

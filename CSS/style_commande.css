@@ -1,0 +1,33 @@
+body {
+		background-image:linear-gradient(360deg,black,#408721);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment: fixed;
+	}
+h1 {text-align: center;
+	color:white;}
+	
+.commande {width:150px;
+			background-color: black;
+			color:white;
+			border:2px red solid}
+
+.texte {width: 300px;
+		background-color: black;
+		color:white;
+		border:2px red solid}
+
+#tableau {margin: auto;
+		color: white;}
+		
+.type {text-align:right;}
+button {background-color: black;
+		color:white;
+		border:2px red solid}
+#centrer {
+	margin: auto;
+	text-align: center;
+}
+a:link {color: white;}
+a:visited {color: white;}
+

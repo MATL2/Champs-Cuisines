@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- NOM DU FICHIER:  template.html -->
+<html>
+
+<head>
+<meta charset="iso-8889-1">
+<title>Les Champs-Cuisinés - Commande</title>
+<link rel="stylesheet" href="../CSS/style_commande.css">
+</head>
+
+<body>
+<h1>Commandez</h1>
+<form action="/action_page.php" method="get">
+	<table id="tableau">
+		<tr>
+			<td class="type">Plat Principal</td>
+			<td><select name="plat" class="commande">
+				<option>Rien</option>
+				<option>Ratatouille</option>
+				<option>Médaillon de veau</option>
+				<option>Aïoli</option>
+				<option>Navarin</option>
+				<option>Pot au feu</option>
+				<option>Bouillabaisse</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td class="type">Boisson</td>
+			<td><select name="boisson" class="commande">
+					<option>Rien</option>
+				<optgroup label="liqueur">
+					<option>Coca-Cola</option>
+					<option>7-up</option>
+					<option>orangead</option>
+				</optgroup>
+				<optgroup label="vin">
+					<option>rouge</option>
+					<option>blanc</option>
+					<option>roser</option>
+					<option>champagne</option>
+				</optgroup>
+				<optgroup label="jus">
+					<option>orange</option>
+					<option>pomme</option>
+					<option>resein</option>
+				</optgroup>
+			</select></td>
+		</tr>
+		<tr>
+			<td class="type">Dessert</td>
+			<td><select name="desser" class="commande">
+				<option>Rien</option>
+				<optgroup label="tarte">
+					<option>sucre</option>
+					<option>pomme</option>
+					<option>citron</option>
+				</optgroup>
+				<option>salade de fruits</option>
+				<option>jell-o</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td class="type">Nom : </td>
+			<td><input type="text" name="nom" class="texte"></input></td>
+		</tr>
+		<tr>
+			<td class="type">Adresse : </td>
+			<td><input type="text" name="adress" class="texte"></input></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><button type="submit" value="commandez">Commandez</button> <button type="reset" value="Reset">Reset</button></td>
+		</tr>
+	</table>
+</form>
+<br>
+<div id="centrer"><a href="../default.html" class="retour">Pour retourner à la page d'accueil, c'est ici !</a></div>
+
+</body>
+
+</html>

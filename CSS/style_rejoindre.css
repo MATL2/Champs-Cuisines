@@ -1,0 +1,30 @@
+body {
+	background-image:linear-gradient(0deg,black,#408721);
+    background-repeat:no-repeat;
+	background-size:cover;     
+	margin: auto;
+	text-align: center;
+	background-attachment: fixed;
+}
+.input {
+	text-align: center;
+	margin: auto;
+}
+p {
+	text-align: center;
+	margin: auto;
+}
+h2 {
+	color: white;
+}
+h3 {
+	color: white;
+}
+p {
+	color: red;
+}
+#blanc {
+	color: white;
+}
+a:link {color: white;}
+a:visited {color: white;}

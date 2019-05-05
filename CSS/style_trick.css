@@ -1,0 +1,59 @@
+body { 
+	background-image:linear-gradient(360deg,black,#408721);
+    background-repeat:no-repeat;
+    background-size:cover;
+	background-attachment: fixed;
+}      
+h1 {
+	color:white;
+}
+p {
+	color: white;
+}
+#curseur_none {
+	cursor: none;
+	box-sizing: border-box;
+	padding: 2em;
+	border-style: double;
+
+}
+#curseur_pointer {
+	cursor: pointer;
+	box-sizing: border-box;
+	padding: 2em;
+	border-style: double;
+}
+#curseur_wait {
+	cursor: wait;
+	box-sizing: border-box;
+	padding: 2em;
+	border-style: double;
+}
+#curseur_crosshair {
+	cursor: crosshair;
+	box-sizing: border-box;
+	padding: 2em;
+	border-style: double;
+}
+#curseur_NA {
+	cursor: not-allowed;
+	box-sizing: border-box;
+	padding: 2em;
+	border-style: double;
+}
+#curseur_allScroll {
+	cursor: all-scroll;
+	box-sizing: border-box;
+	padding: 2em;
+	border-style: double;
+}
+#separation_curseurs {
+	display: flex;
+	flex-wrap: wrap;
+}
+#a_center {
+	text-align: center;
+	margin: auto;
+}
+a:link {color: white;}
+a:visited {color: white;}

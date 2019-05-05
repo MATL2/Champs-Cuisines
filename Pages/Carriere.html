@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- NOM DU FICHIER:  template.html -->
+<html>
+
+<head>
+<meta charset="iso-8889-1">
+<title>Les Champs-Cuisinés - Carrière</title>
+<link rel="stylesheet" href="../CSS/style_carriere.css">
+</head>
+
+<body>
+<h1>Formulaire de candidature</h1>
+<form action="liste.php" method="post">
+<table id="table">
+		<tr>
+			<td class="text">Nom</td>
+			<td>
+				<input type="text" name="nom" class="carriere" value=""></input>
+			</td>
+		</tr>
+		<tr>
+			<td class="text">Adresse</td>
+			<td>
+				<input type="text" name="adresse" class="carriere" value=""></input>
+			</td>
+		</tr>
+		<tr>
+			<td class="text">Numéro de téléphone</td>
+			<td>
+				<input type="text" name="telephone" class="carriere" value=""></input>
+			</td>
+		</tr>
+		<tr>
+			<td class="text">Curriculum vitae</td>
+			<td><input type="file" class="file" name="CV"></input></td>
+		</tr>
+		<tr>
+			<td class="text">Poste convoité</td>
+			<td><input type="checkbox" name="cuisinier"></input><span class="text">Cuisinier</span></td>
+		</tr>
+		<tr>
+			<td>
+			</td>
+			<td><input type="checkbox" name="reparateur"></input><span class="text">Réparateur de drones</span></td>
+		</tr>
+		<tr>
+			<td>
+			</td>
+			<td><input type="checkbox" name="conducteur"></input><span class="text">Conducteur de drones</span></td>
+		</tr>
+		<tr>
+			<td class="text">Texte de motivation</td>
+			<td><textarea name="motivation" class="carriere" rows="3" cols="30"></textarea></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><button type="submit" value="commandez">Submit</button> <button type="reset" value="Reset">Reset</button></td>
+		</tr>
+	</table>
+</form>
+</form>
+<br>
+<a href="../default.html">Pour retourner à la page d'accueil, c'est ici !</a>
+</body>
+
+</html>
